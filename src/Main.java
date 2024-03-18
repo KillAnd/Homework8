@@ -42,6 +42,35 @@ public class Main {
 
         //task 3
         System.out.println("Task 3");
+        for(int i= one.length-1; i >= 0 ; i--) {
+            if (i != 0) {
+                System.out.print(one[i] + ", ");
+            } else {
+                System.out.print(one[i]);
+            }
+        }
+        System.out.println();
+
+        for(int i= two.length-1; i >= 0 ; i--) {
+            if (i != 0) {
+                System.out.print(two[i] + ", ");
+            } else {
+                System.out.print(two[i]);
+            }
+        }
+        System.out.println();
+
+        for(int i= threeTime.length-1; i >= 0 ; i--) {
+            if (i != 0) {
+                System.out.print(threeTime[i] + ", ");
+            } else {
+                System.out.print(threeTime[i]);
+            }
+        }
+        System.out.println();
+
+        //task 4
+        System.out.println("Task 4");
         for(int i=0; i < one.length; i++) {
             if (i == one.length - 1) {
                 System.out.println(one[i]);
