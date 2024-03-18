@@ -3,9 +3,9 @@ public class Main {
         //task 1
         System.out.println("Task 1");
         int [] one = new int[3];
-        one[0] = 1;
+        one[0] = 2;
         one[1] = 2;
-        one[2] = 3;
+        one[2] = 4;
         System.out.println(one[0]);
 
         double [] two = {1.57, 7.654, 9.986};
@@ -40,6 +40,14 @@ public class Main {
             System.out.print(threeTime[i] + ", ");
         }
 
-
+        //task 3
+        System.out.println("Task 3");
+        for(int i=0; i < one.length; i++) {
+            if (i == one.length - 1) {
+                System.out.println(one[i]);
+                break;
+            }
+            System.out.print(one[i] + ", ");
+        }
     }
 }
