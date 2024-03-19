@@ -71,16 +71,11 @@ public class Main {
 
         //task 4
         System.out.println("Task 4");
-        int [] oneCop = new int[3];
-        oneCop[0] = 2;
-        oneCop[1] = 2;
-        oneCop[2] = 4;
-        for(int i=0; i < oneCop.length; i++) {
-            if (i == oneCop.length - 1) {
-                System.out.println(oneCop[i]);
-                break;
-            }
-            System.out.print(oneCop[i] + ", ");
+        for(int i=0; i < one.length; i++) {
+             if (one[i]%2!=0) {
+                 one[i]+=1;
+             }
+            System.out.print(one[i] + " ");
         }
     }
 }
